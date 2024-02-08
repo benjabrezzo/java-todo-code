@@ -57,7 +57,7 @@ public class AsientosAnfiteatro {
                 asientos[fila][asiento] = 'X';
                 System.out.println("El asiento fue reservado correctamente.");
             } else {
-                System.out.println("El aseinto está ocupado. Eliga otro.");
+                System.out.println("El asiento está ocupado. Eliga otro.");
             }
             System.out.print("Desea seguir reservado asientos?(S/N): ");
             respuesta = scan.next();
